@@ -1,0 +1,76 @@
+/**** BASE STYLES ******/
+body {
+  font-family: 'Playfair Display', serif;
+  max-width: 1200px;
+}
+
+#welcome, #projects-intro, #project1, #project2, #project3, #skills {
+  height: 700px;
+}
+
+#contact {
+  height: 350px;
+}
+/***** GRID *****/
+.full-width {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 50%;
+  float: left;
+}
+
+#welcome {
+  padding-top: 50px;
+}
+
+#welcome h1, #projects-intro h1, #skills h1, #about h1 {
+  font-size: 4.5em;
+}
+
+#welcome p, #projects-intro p, #about p {
+  font-size: 1.875em;
+}
+
+#projects h3, #skills h3, #contact h3 {
+  font-size: 2.25em;
+}
+
+#project1 p, #project2 p, #project3 p, #contact .half-width {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.25em;
+}
+
+#left-img-1, #left-img-2 {
+  margin-left: 25%;
+}
+
+#left-img-2 {
+  border: 2px solid gray;
+}
+
+#skills ul, #contact ul {
+  list-style-type: none;
+}
+
+#skills li {
+  font-size: 2em;
+  line-height: 200%
+}
+div #skills-desc {
+  margin-top: 12%;
+}
+
+
+#css-description {
+  display: none;
+}
+#skills-desc p {
+  font-size: 1.5em;
+}
+
+#email {
+  margin-top: 2%;
+}
